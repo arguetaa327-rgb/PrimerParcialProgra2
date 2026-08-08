@@ -125,6 +125,8 @@ public class Videoclub {
 	public List<Pelicula> buscarPorTituloParcial(String texto) {
 		// TODO: reemplazar esta línea por la lógica descrita arriba.
 
+		// daba error en el apartado de if lo cual se pudo corregir 
+		
 		    List<Pelicula> encontradas = new ArrayList<>(); {
  
 		    for (Pelicula pelicula : peliculas) {
