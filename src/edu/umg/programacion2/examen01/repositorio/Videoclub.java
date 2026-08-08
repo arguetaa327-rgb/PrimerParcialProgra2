@@ -202,8 +202,7 @@ public class Videoclub {
 	 */
 	public Pelicula alquilarPrimeraDisponibleDeGenero(String genero) throws PeliculaNoDisponibleException {
 		// TODO (opcional): reemplazar esta línea por la lógica descrita arriba.
-				        throws PeliculaNoDisponibleException {
-
+		
 				    for (Pelicula pelicula : peliculas) {
 				        if (pelicula.getGenero().equals(genero) && pelicula.estaDisponible()) {
 				            pelicula.alquilar();
@@ -215,9 +214,4 @@ public class Videoclub {
 				            "No hay películas disponibles del género " + genero);
 				}
 				
-				
 	}
-}
-
-		    
-		
